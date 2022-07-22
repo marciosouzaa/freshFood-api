@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon ./src/server.js",
     "start": "pm2-runtime start ecosystem.config.js --env production",
-    "migrate": "knex migrate:latest"
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
   },
   "keywords": [],
   "author": "Marcio Souza",
